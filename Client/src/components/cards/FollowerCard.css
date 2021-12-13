@@ -1,0 +1,51 @@
+.follower-card {
+    background-color: var(--black);
+    border: 1px solid var(--lightgray);
+    border-radius: 20px;
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    width: 300px;
+    padding: 20px;
+}
+
+.follower-card__name {
+    font-size: 24px;
+}
+
+.follower-card__reason {
+    color: var(--lightgray);
+}
+
+.follower-card img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.follower-card__info {
+    margin: 20px 0px;
+}
+
+.follower-card__btns,
+.follower-card__info,
+.follower-card__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.follower-card__links a:hover {
+    opacity: 0.5;
+}
+
+.follower-card__worth div:first-child,
+.follower-card__assets div:first-child {
+    font-size: 34px;
+}
+
+.follower-card__worth div:last-child,
+.follower-card__assets div:last-child {
+    font-size: 14px;
+    color: var(--lightgray);
+}

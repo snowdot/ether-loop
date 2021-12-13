@@ -1,0 +1,11 @@
+.follow-btn {
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    max-width: 143px;
+}
+
+.follow-btn div {
+    border-radius: 10px;
+    max-height: 40px;
+    max-width: 143px;
+}

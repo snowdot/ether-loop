@@ -1,0 +1,68 @@
+.asset-btn {
+    border-radius: 20px;
+    display: grid;
+    cursor: inherit;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 4px;
+    min-height: 60px;
+    padding: 10px 20px;
+    text-align: right;
+}
+  
+.asset-btn__coin {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    text-align: left;
+}
+
+.asset-btn__coin img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.asset-btn__price,
+.asset-btn__holding {
+    margin-left: 10px;
+}
+
+.asset-btn__price div:first-child,
+.asset-btn__holding div:first-child {
+    font-size: 16px;
+}
+
+.asset-btn__price div:nth-child(2),
+.asset-btn__holding div:nth-child(2) {
+    font-size: 13px;
+}
+
+.asset-btn__holding div:nth-child(2) {
+    color: var(--lightgray);
+    margin-top: 4px;
+}
+
+.mob {
+    display: block;
+}
+
+.web {
+    display: none;
+}
+
+@media only screen and (min-width: 576px) {
+    .asset-btn {
+        grid-template-columns: 6fr 1fr 2fr;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    .web {
+        display: block;
+    }
+}

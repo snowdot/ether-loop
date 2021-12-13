@@ -1,0 +1,49 @@
+.wallet-btn {
+    border: 1px solid var(--purple);
+    border-radius: 20px;
+    padding: 8px 10px;
+    position: relative;
+}
+
+.wallet-btn.active {
+    border-bottom: 1px solid transparent;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.wallet-btn button {
+    font-size: 14px;
+}
+
+.wallet-btn .wallet-btn__address {
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 26px;
+    line-height: 26px;
+}
+
+.wallet-btn svg {
+    margin-left: 4px;
+    height: 100%;
+}
+
+.wallet-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+@media only screen and (min-width: 992px) {
+    .wallet-btn {
+        padding: 10px 20px;
+    }
+
+    .wallet-btn button {
+        font-size: 16px;
+    }
+
+    .wallet-btn svg {
+        margin-left: 6px;
+    }
+}

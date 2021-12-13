@@ -1,0 +1,30 @@
+.columns-asset {
+    background-color: var(--black);
+    border-bottom: 1px solid var(--lightgray);
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: sticky;
+    top: 80px;
+    text-align: center;
+}
+
+.columns-asset div:first-child {
+    text-align: left;
+}
+
+.columns-asset div {
+    text-align: right;
+}
+
+@media only screen and (min-width: 576px) {
+    .columns-asset {
+        grid-template-columns: 6fr 1fr 2fr;
+    }
+}

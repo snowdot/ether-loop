@@ -1,0 +1,47 @@
+.nav-btn {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.nav-btn:hover {
+    background-color: var(--purple);
+    opacity: 0.2;
+
+}
+
+.nav-btn:hover  > * {
+    color: var(--white);
+}
+
+.nav-btn div {
+    color: var(--lightgray);
+    font-size: 0px;
+}
+
+.nav-btn.active div {
+    color: var(--white);
+}
+
+.nav-btn.active svg path {
+    stroke: var(--white);
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-btn {
+        justify-content: flex-start;
+    }
+
+    .nav-btn div {
+        font-size: 20px;
+    }
+
+    .nav-btn svg {
+        margin-right: 20px;
+    }
+}

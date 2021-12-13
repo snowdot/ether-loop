@@ -1,0 +1,67 @@
+.tx-btn {
+    cursor: default;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr) repeat(2, 1fr);
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 16px;
+}
+
+.tx-btn div,
+.tx-btn a {
+    font-size: 14px;
+}
+
+.tx-btn__type {
+    display: flex;
+    justify-content: center;
+}
+
+.tx-btn__type div {
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 900;
+    width: 30px;
+    height: 20px;
+    line-height: 22px;
+}
+
+.tx-btn__type .in {
+    background-color: #4d47f731;
+    font-weight: 300;
+    color: var(--lightgray);
+}
+
+.tx-btn__type .out {
+    background-color: #4d47f731;
+    font-weight: 300;
+    color: var(--purple);
+}
+
+.tx-btn .success {
+    color: var(--green);
+}
+
+.tx-btn .fail {
+    color: var(--red);
+}
+
+.tx-btn__date,
+.tx-btn__type,
+.tx-btn__status {
+    display: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .tx-btn {
+        grid-template-columns: repeat(4, 2fr) repeat(4, 1fr);
+    }
+
+    .tx-btn__date,
+    .tx-btn__type,
+    .tx-btn__status {
+        display: block;
+    }
+}
+  

@@ -1,0 +1,25 @@
+.login-button {
+    border: 1px solid var(--lightgray);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    min-width: 340px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 20px;
+}
+
+.login-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+@media only screen and (min-width: 992px) {
+    .login-button {
+        min-width: 385px;
+        padding: 14px 30px;
+    }
+}

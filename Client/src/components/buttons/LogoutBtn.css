@@ -1,0 +1,19 @@
+.logout-button {
+    background-color: var(--black);
+    border: 1px solid var(--purple);
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    width: calc(100% + 2px);
+    display: flex;
+    align-items: center;
+    min-height: 26px;
+    line-height: 26px;
+    padding: 10px 20px;
+    position: absolute;
+    top: calc(100% -1px);
+    left: -1px;
+}
+
+.logout-button:hover {
+    color: var(--purple);
+}

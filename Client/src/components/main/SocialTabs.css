@@ -1,0 +1,59 @@
+.social-tabs {
+    background-color: var(--black);
+    border-bottom: 1px solid var(--lightgray);
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: sticky;
+    top: 80px;
+}
+
+.social-tabs button {
+    border-bottom: 2px solid transparent;
+    color: var(--lightgray);
+    font-size: 12px;
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+}
+
+.social-tabs button:hover {
+    background-color: var(--purple);
+    color: var(--white);
+    opacity: 0.2;
+}
+
+.social-tabs button.active {
+    border-bottom: 2px solid var(--white);
+    color: var(--white);
+}
+
+.social-tabs span {
+    font-size: 12px;
+    position: absolute;
+    top: -4px;
+    margin-left: 2px;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        width: 240px;
+        padding: 0 20px;
+    }
+
+    .social-tabs button {
+        font-size: 16px;
+    }
+
+    .navbar__links__connect {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .navbar__links__connect div:first-child {
+        display: block;
+        margin-right: 10px;
+    }
+}

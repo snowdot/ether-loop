@@ -1,0 +1,24 @@
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo div {
+    display: none;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--purple);
+}
+
+@media only screen and (min-width: 992px) {
+    .logo div {
+        display: block;
+    }
+}

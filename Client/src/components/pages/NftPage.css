@@ -1,0 +1,10 @@
+.nft-wrapper__nfts {
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
+    min-width: 100%;
+    padding: 20px;
+}

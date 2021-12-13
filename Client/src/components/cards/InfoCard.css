@@ -1,0 +1,31 @@
+.info-card {
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.info-card div:first-child {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-card div:last-child {
+    color: var(--lightgray);
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .info-card {
+        padding: 20px;
+    }
+
+    .info-card div:first-child {
+        font-size: 24px;
+    }
+    
+    .info-card div:last-child {
+        font-size: 16px;
+    }
+}

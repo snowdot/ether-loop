@@ -1,0 +1,15 @@
+.poap-wrapper__poaps {
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    .poap-wrapper__poaps {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

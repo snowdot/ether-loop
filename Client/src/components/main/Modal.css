@@ -1,0 +1,89 @@
+.modal {
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.modal-wrapper .loading img {
+    width: 100px;
+    height: 100px;
+}
+
+.modal-wrapper .error {
+    margin-top: 0;
+}
+
+.modal-wrapper .follower-card {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+}
+
+.modal-wrapper {
+    background-color: var(--black);
+    border-radius: 20px;
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 400px;
+    height: 520px;
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-wrapper__close {
+    text-align: right;
+}
+
+.modal-wrapper__close button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.modal-wrapper__search {
+    margin-bottom: 40px;
+}
+
+.modal-wrapper__search div {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-wrapper__search input,
+.modal-wrapper__search button {
+    border-radius: 20px;
+    font-size: 16px;
+    width: calc(100% - 40px);
+    height: 40px;
+    margin: 0 auto;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.modal-wrapper__search input {
+    border: 1px solid var(--purple);
+    background-color: transparent;
+    color: var(--white);
+}
+
+.modal-wrapper__search button {
+    border: 1px solid var(--purple);
+    background-color: var(--purple);
+    color: var(--white);
+    margin-top: 10px;
+}
+
+.modal-wrapper__search button:hover {
+    opacity: 0.5;
+}
+
+.modal-wrapper__search button:disabled {
+    cursor: not-allowed;
+}
