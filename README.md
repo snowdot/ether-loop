@@ -8,7 +8,6 @@ Project link: https://etherloop.moonlabs.xyz/<br>
 Public repo: https://github.com/snowdot/ether-loop<br>
 Recorded video demo of Unstoppable Domains Login integration: https://youtu.be/TMaPd_3hxtk<br>
 Recorded video demo of CyberConnect API integration: https://youtu.be/r5MPI5X0688<br>
-Person of contact: <br>- Discord ID: **Snowdot#8235**<br> - Email address: co.pascu@gmail.com<br>
 
 ![landing](https://user-images.githubusercontent.com/39951422/145643642-c7e5be41-2181-4377-95f3-891c81f34ec3.PNG)
 
